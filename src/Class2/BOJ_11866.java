@@ -15,12 +15,9 @@ public class BOJ_11866 {
         int K = Integer.parseInt(st.nextToken());
 
         Queue<Integer> q1 = new LinkedList<>();
-        Queue<Integer> q2 = new LinkedList<>();
 
         for(int i=1; i<=N; i++)
             q1.add(i);
-
-        int result = 0;
 
         while(q1.size()>1){
             for(int i=0; i<K-1; i++)
